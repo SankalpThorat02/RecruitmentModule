@@ -1,0 +1,19 @@
+###
+POST http://localhost:8080/api/registration/user
+Content-Type: application/json
+
+{
+  "firstName": "Sankalp",
+  "lastName": "Thorat",
+  "dob": "2002-02-02",
+  "reference": "CAMPUS_PLACEMENT",
+  "emailId": "sankalpt0202@gmail.com",
+  "cardType": "PAN CARD",
+  "cardNumber": "ABCDE1234F",
+  "mobileNo": "9876543210",
+  "positionApplied": "SOFTWARE_DEVELOPER",
+  "qualification": "BTECH",
+  "specialization": "COMPUTERSCIENCE",
+  "collegeName": "IIIT KURNOOL",
+  "roleId": 1
+}
