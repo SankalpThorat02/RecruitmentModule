@@ -17,3 +17,23 @@ Content-Type: application/json
   "collegeName": "IIIT KURNOOL",
   "roleId": 1
 }
+
+###
+POST http://localhost:8080/api/registration/user
+Content-Type: application/json
+
+{
+  "firstName": "RAHUL",
+  "lastName": "SHARMA",
+  "dob": "1998-05-15",
+  "reference": "LINKEDIN",
+  "emailId": "rahul.sharma.dev@example.com",
+  "cardType": "PAN CARD",
+  "cardNumber": "CQZPR9876M",
+  "mobileNo": "9876500001",
+  "positionApplied": "BACKEND ENGINEER",
+  "qualification": "MTECH",
+  "specialization": "SOFTWARE ENGINEERING",
+  "collegeName": "IIT BOMBAY",
+  "roleId": 2
+}

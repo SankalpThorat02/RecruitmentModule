@@ -1,6 +1,7 @@
 package com.sankalp.prototype.services;
 
 import com.sankalp.prototype.dtos.RegistrationRequest;
+
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.ParameterMode;
 import jakarta.persistence.StoredProcedureQuery;
@@ -8,7 +9,6 @@ import jakarta.transaction.Transactional;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
-
 
 @Service
 public class RegistrationService {
@@ -57,7 +57,7 @@ public class RegistrationService {
             return (String) query.getOutputParameterValue("O_MESSAGE");
         }
         catch (Exception e) {
-            return "Error: Database execution failed. Details " + e.getMessage();
+            throw new RuntimeException("Database execution failed. Details " + e.getMessage());
         }
     }
 }
