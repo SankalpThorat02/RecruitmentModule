@@ -1,7 +1,7 @@
-package com.sankalp.prototype.controllers;
+package com.sankalp.prototype.controller;
 
-import com.sankalp.prototype.dtos.RegistrationRequest;
-import com.sankalp.prototype.services.RegistrationService;
+import com.sankalp.prototype.dto.RegistrationRequest;
+import com.sankalp.prototype.service.RegistrationService;
 import com.sankalp.prototype.util.ApiResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

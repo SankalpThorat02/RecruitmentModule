@@ -1,4 +1,4 @@
-package com.sankalp.prototype.dtos;
+package com.sankalp.prototype.dto;
 
 import lombok.Getter;
 import lombok.Setter;
